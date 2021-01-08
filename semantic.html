@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa-info</title>
+   <link rel="shortcut icon" href="img/image.png" type="image/x-icon">
+   <style>
+       nav{
+           height: 50px;
+           background-color: lightgray;
+           line-height: 30px;
+           font-size: 30px;
+
+       }
+      nav li{
+          list-style: none;
+          float: left;
+          padding: 10px;
+          
+      }
+
+      nav a{
+        text-decoration: none;
+        color: black;
+
+      }
+      nav li:hover{
+          background-color: gray;
+          
+      }
+      nav a:hover{
+        color: white;
+      }
+       
+   </style>
+</head>
+<body>
+
+<nav>
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Info</a>
+        <ul>
+            <li><a href="#">2</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a>
+        </ul>
+    </li>
+    <li><a href="#">Customer</a></li>
+</ul>
+
+</nav>
+
+    <form action="">
+<br><br><br><br><br><br><br>
+        <p>Your name:<input type="text"> </p>
+        <p>Mobile:<input type="tel"> </p>
+        <p>Email:<input type="email"> </p>
+        <fieldset>
+            <legend>Select You Area</legend>
+            <p><label for="dhaka"><input type="radio" name="area" id="dhaka">Dhaka</label></p>
+
+            <p><label for="Khulna"><input type="radio" name="area" id="Khulna">Khulna</label></p>
+
+            <p><label for="raj"><input type="radio" name="area" id="raj">Raj</label></p>
+        </fieldset>
+
+        <fieldset>
+<legend>Selec District</legend>
+        <p><label for="dhaka1"><input type="checkbox" name="" id="dhaka1">Dhaka</label></p>
+
+        <p><label for="Khulna1"><input type="checkbox" name="" id="Khulna1">Khulna</label></p>
+
+        <p><label for="raj1"><input type="checkbox" name="" id="raj1">Raj</label></p>
+        
+    </fieldset>
+
+    <p> <label for=""> Instruction: <input type="text" name="" id="" ></label></p>
+        
+<button type="submit">SUbmit</button>
+    </form>
+    
+</body>
+</html>
